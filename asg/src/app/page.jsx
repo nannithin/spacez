@@ -110,9 +110,9 @@ export default function Home() {
           </div>
           <div>
             <ul className="list-none flex justify-between text-xs text-[#7D817D] border-b border-[#E5E6E5]"> 
-              <li onClick={() => scrollTo(couponsRef)} className="p-1.5 border-b border-black font-semibold text-black">Coupons</li> 
-              <li onClick={() => scrollTo(giftcardsRef)} className="p-1.5">Giftcards</li> 
-              <li onClick={() => scrollTo(paymentsRef)} className="p-1.5">Payment Offers</li> </ul>
+              <li onClick={() => scrollTo(couponsRef)} className="p-1.5 border-b border-black font-semibold text-black select-none">Coupons</li> 
+              <li onClick={() => scrollTo(giftcardsRef)} className="p-1.5 select-none">Giftcards</li> 
+              <li onClick={() => scrollTo(paymentsRef)} className="p-1.5 select-none">Payment Offers</li> </ul>
 
 
           </div>
